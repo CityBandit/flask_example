@@ -7,7 +7,7 @@ load_dotenv()
 
 def json_response(data):
     response = {
-        "_version": "VERSION 2",
+        "_version": "VERSION 3",
         "_host": socket.gethostname(),
         "_time": time.time(),
         "_data": data
