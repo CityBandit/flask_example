@@ -15,4 +15,3 @@ jobs:
       - name: greet user 
         run: |
           echo "Hello world"
-          exit 1
