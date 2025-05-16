@@ -13,4 +13,6 @@ jobs:
           GITHUB_CONTEXT: ${{ toJSON(github) }}
         run: echo "${{ env.GITHUB_CONTEXT }}"
       - name: greet user 
-        run: echo "Hello world"
+        run: |
+          echo "Hello world"
+          exit 1
